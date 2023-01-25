@@ -2,3 +2,23 @@
 Small Python Trading boot
 
 This script uses the ccxt library to interact with the Binance exchange. It defines a simple trading strategy where it will buy BTC when the price falls below 90% of the current price and sell when the price rises above 110% of the current price. It does this by repeatedly calling the trading_strategy function in a loop.
+
+The script starts by importing the ccxt library, which is a collection of modules for interacting with different cryptocurrency exchanges. In this example, we are using the binance() function from the ccxt library to initialize the exchange object, which will allow us to interact with the Binance exchange.
+
+Next, we set the ticker symbol for the asset we want to trade. In this case, it is 'BTC/USDT', which represents the Bitcoin/Tether trading pair.
+
+The script then defines a function called trading_strategy(exchange, symbol). This function will be called repeatedly by the script in a loop and will contain the logic for the trading strategy.
+
+The first thing the trading_strategy function does is fetch the current price of the asset by calling exchange.fetch_ticker(symbol). This returns an object containing various information about the asset's current state, including the last price it was traded at. We store this price in a variable called current_price.
+
+Next, we define our buy and sell thresholds. In this case, we have set the buy threshold to 90% of the current price and the sell threshold to 110% of the current price. This means that if the current price falls below 90% of its value, the bot will buy, and if the price rises above 110% of its value, the bot will sell.
+
+Then we get our current balance by calling exchange.fetch_balance(), which returns an object containing information about the balance of all assets in our account. We store the balance of BTC in the variable btc_balance.
+
+Then, we check whether the current price is below the buy threshold. If it is, we calculate the number of BTC to buy by dividing our available balance by the current price. We then place a buy order by calling exchange.create_market_buy_order(symbol, btc_to_buy). This will buy the specified number of BTC at the current market price.
+
+Lastly, we check whether the current price is above the sell threshold. If it is, we place a sell order by calling exchange.create_market_sell_order(symbol, btc_balance). This will sell all of our BTC at the current market price.
+
+Lastly, the script runs the trading strategy on a loop by calling the trading_strategy(exchange, symbol) function inside a while(True) loop.
+
+Please note that this is just an example and there are many other factors to consider when building a trading bot. Also, you should always do your own research before doing any trading.

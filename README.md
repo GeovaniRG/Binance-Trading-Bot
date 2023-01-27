@@ -35,3 +35,13 @@ There are several things you could add to this project to make it more robust an
 7. Incorporating a database to save historical data and make trading decisions based on historical data.
 
 It is important to note that these are just a few examples and depending on your goals and the complexity of your trading strategy, additional features may be needed. It is also crucial to test and validate any changes you make to the trading bot in order to avoid potential losses.
+
+# new_trading_bot.py
+
+This is a skeleton for a trading strategy that utilizes the CCXT library to interact with the Binance exchange, the TA-Lib library to calculate technical indicators, and the Pandas library to handle the data. The strategy uses the Simple Moving Average (SMA) and the Relative Strength Index (RSI) to make buy and sell decisions, and also includes stop loss and take profit functionality.
+
+We may want to add some error handling, such as try and except blocks, to handle any issues that may arise during the execution of the code. Also, you may want to consider adding logging functionality to keep track of trade execution, order placement, and any other relevant information.
+
+Also, we may want to consider adding a time interval for the execution of the trading_strategy function. This will prevent the function from being executed too frequently, which can lead to rate limiting issues.
+
+Let me guys know any recomendation!

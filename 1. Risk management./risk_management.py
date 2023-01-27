@@ -31,3 +31,5 @@ def trading_strategy(exchange, symbol):
         # Place a sell order
         exchange.create_market_sell_order(symbol, btc_balance)
         print('Sold', btc_balance, 'BTC at', current_price)
+
+

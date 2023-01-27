@@ -1,3 +1,5 @@
+#// Geovani Rodriguez //#
+
 import talib
 import numpy as np
 

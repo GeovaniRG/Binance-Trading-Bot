@@ -23,6 +23,7 @@ Lastly, the script runs the trading strategy on a loop by calling the trading_st
 
 Please note that this is just an example and there are many other factors to consider when building a trading bot. Also, you should always do your own research before doing any trading.
 
+# Improving the code: 
 There are several things you could add to this project to make it more robust and potentially more profitable:
 * Risk management: Implementing risk management measures such as stop-loss orders to limit potential losses.
 * Backtesting: Using historical data to test the performance of the trading strategy and make adjustments as needed.

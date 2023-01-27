@@ -39,3 +39,5 @@ def trading_strategy(exchange, symbol):
 # Run the trading strategy on a loop
 while True:
     trading_strategy(exchange, symbol)
+    
+    

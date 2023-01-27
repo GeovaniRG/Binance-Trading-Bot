@@ -29,9 +29,9 @@ There are several things you could add to this project to make it more robust an
 1. Risk management: Implementing risk management measures such as stop-loss orders to limit potential losses.
 2. Backtesting: Using historical data to test the performance of the trading strategy and make adjustments as needed.
 3. Indicator-based strategy: Incorporating technical indicators such as moving averages or relative strength index (RSI) to generate buy and sell signals.
-Portfolio management: Diversifying your portfolio by trading multiple assets, rather than just a single one.
-4. Market sentiment analysis: Incorporating external data such as news articles or social media sentiment to inform your trading decisions
-5. Multi-Exchange: Adding functionality to trade on multiple exchanges.
-Incorporating a database to save historical data and make trading decisions based on historical data.
+4. Portfolio management: Diversifying your portfolio by trading multiple assets, rather than just a single one.
+5. Market sentiment analysis: Incorporating external data such as news articles or social media sentiment to inform your trading decisions
+6. Multi-Exchange: Adding functionality to trade on multiple exchanges.
+7. Incorporating a database to save historical data and make trading decisions based on historical data.
 
 It is important to note that these are just a few examples and depending on your goals and the complexity of your trading strategy, additional features may be needed. It is also crucial to test and validate any changes you make to the trading bot in order to avoid potential losses.

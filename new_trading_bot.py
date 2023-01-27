@@ -70,3 +70,5 @@ def trading_strategy(exchange, symbol):
         # Place a sell order to take profits
         exchange.create_market_sell_order(symbol, btc_balance)
         print('Take profit triggered, sold', btc_balance, 'BTC at', current_price)
+        
+        

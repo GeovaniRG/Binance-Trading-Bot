@@ -22,3 +22,12 @@ Lastly, we check whether the current price is above the sell threshold. If it is
 Lastly, the script runs the trading strategy on a loop by calling the trading_strategy(exchange, symbol) function inside a while(True) loop.
 
 Please note that this is just an example and there are many other factors to consider when building a trading bot. Also, you should always do your own research before doing any trading.
+
+There are several things you could add to this project to make it more robust and potentially more profitable:
+* Risk management: Implementing risk management measures such as stop-loss orders to limit potential losses.
+* Backtesting: Using historical data to test the performance of the trading strategy and make adjustments as needed.
+* Indicator-based strategy: Incorporating technical indicators such as moving averages or relative strength index (RSI) to generate buy and sell signals.
+Portfolio management: Diversifying your portfolio by trading multiple assets, rather than just a single one.
+* Market sentiment analysis: Incorporating external data such as news articles or social media sentiment to inform your trading decisions
+* Multi-Exchange: Adding functionality to trade on multiple exchanges.
+Incorporating a database to save historical data and make trading decisions based on historical data.

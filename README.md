@@ -1,4 +1,4 @@
-# Trading-bot
+# Binance-Trading-bot
 Small Python Trading boot
 (This it's just for fun)
 
